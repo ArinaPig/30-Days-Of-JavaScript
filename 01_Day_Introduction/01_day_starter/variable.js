@@ -1,20 +1,50 @@
-// Declaring different variables of different data types
+//Task1
 
-let firstName = 'Asabeneh'    // first name of a person
-let lastName = 'Yetayeh'      // last name of a person
-let country = 'Finland'       // country
-let city = 'Helsinki'         // capital city
-let age = 100                 // age in years
-let isMarried = true
+//comments can make code readable
 
-// Declaring variables with number values
+//Task2
 
-const gravity = 9.81         // earth gravity  in m/s2
-const boilingPoint = 100     // water boiling point, temperature in oC
-const PI = 3.14              // geometrical constant
+//Welcome to 30DaysOfJavaScript
 
-// Variables can also be declaring in one line separated by comma
+//Task3
 
-let name = 'Asabeneh',     //name of a person
-  job = 'teacher',
-  live = 'Finland'
+/*comments can make code readable, 
+easy to reuse and informative*/
+
+//Task4
+
+let string = 'this is a string'
+let boolean = true
+let undef
+let null0 = null
+
+//Task 6
+let hello
+let a
+let hi
+let simple
+
+//Task 7
+let a1 = 'st'
+let js = 1
+let l = false
+let pr = 23.4
+
+//Task 8
+let firstName1 = 'Arina'
+let lastName1 = 'Ivleva'
+let country1 = 'Russia'
+let age1 = 16
+
+//Task 9
+let firstName2 = 'Arina',
+	lastName2 = 'Ivleva',
+	country2 = 'Russia',
+	age2 = 16
+
+//Task 10
+let myAge = 'I am 25 years old'
+let yourAge = 'You are 30 years old.'
+
+console.log(myAge)
+console.log(yourAge)
