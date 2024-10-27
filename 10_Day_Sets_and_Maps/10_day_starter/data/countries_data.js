@@ -265,7 +265,7 @@ const countries = [
   },
   {
     name: 'United States Minor Outlying Islands',
-    capital: '',
+    capital: '',f
     languages: ['English'],
     population: 300,
     flag: 'https://restcountries.eu/data/umi.svg',
