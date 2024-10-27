@@ -53,3 +53,11 @@ console.log(c)
 //Task3-medium
 c = new Set(a.filter(num => !B.has(num)))
 console.log(c)
+
+console.log(countriesMap)
+
+//Task1-hard
+console.log(countries.length)
+
+//Task2-hard
+function mostSpokenLanguages(countries, n) {}
