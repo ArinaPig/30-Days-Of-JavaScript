@@ -20,3 +20,60 @@ const rectangle = {
 
 let { width, height, area, perimeter } = rectangle
 console.log(width, height, area, perimeter)
+
+//Task1-medium
+const users = [
+	{
+		name: 'Brook',
+		scores: 75,
+		skills: ['HTM', 'CSS', 'JS'],
+		age: 16,
+	},
+	{
+		name: 'Alex',
+		scores: 80,
+		skills: ['HTM', 'CSS', 'JS'],
+		age: 18,
+	},
+	{
+		name: 'David',
+		scores: 75,
+		skills: ['HTM', 'CSS'],
+		age: 22,
+	},
+	{
+		name: 'John',
+		scores: 85,
+		skills: ['HTML'],
+		age: 25,
+	},
+	{
+		name: 'Sara',
+		scores: 95,
+		skills: ['HTM', 'CSS', 'JS'],
+		age: 26,
+	},
+	{
+		name: 'Martha',
+		scores: 80,
+		skills: ['HTM', 'CSS', 'JS'],
+		age: 18,
+	},
+	{
+		name: 'Thomas',
+		scores: 90,
+		skills: ['HTM', 'CSS', 'JS'],
+		age: 20,
+	},
+]
+
+for (let { name, scores, skills, age } of users) {
+	console.log(name, scores, skills, age)
+}
+
+//Task2-medium
+for (let { name, skills } of users) {
+	if (skills.length < 2) {
+		console.log(name, skills)
+	}
+}
