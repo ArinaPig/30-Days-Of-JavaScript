@@ -34,3 +34,22 @@ const countriesMap = new Map()
 for (let i = 0; i <= countries3.length - 1; i++) {
 	countriesMap.set(countries3[i], countries3[i].length)
 }
+
+//Task1-medium
+const a = [4, 5, 8, 9]
+const b = [3, 4, 5, 7]
+
+const A = new Set(a)
+const B = new Set(b)
+
+let c = new Set([...a, ...b])
+
+console.log(c)
+
+//Task2-medium
+c = new Set(a.filter(num => B.has(num)))
+console.log(c)
+
+//Task3-medium
+c = new Set(a.filter(num => !B.has(num)))
+console.log(c)
